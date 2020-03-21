@@ -12,11 +12,11 @@ const Navigation = () => {
       <h1 className='mt2 mb0 baskerville i fw1 f1'>Eoin's Life</h1>
       <h2 className='mt2 mb0 f6 fw4 ttu tracked'>Welcome to my journey so far....</h2>
       <nav className='bt bb tc mw7 center mt4'>
-        <p className='f6 f5-l link bg-animate black-80 hover-bg-lightest-blue dib pa3 ph4-l pointer' href='/'>About</p>
-        <p className='f6 f5-l link bg-animate black-80 hover-bg-light-green dib pa3 ph4-l pointer' href='/portfolio'>Education</p>
-        <p className='f6 f5-l link bg-animate black-80 hover-bg-light-blue dib pa3 ph4-l pointer' href='/shop'>Work Experience</p>
-        <p className='f6 f5-l link bg-animate black-80 hover-bg-light-pink dib pa3 ph4-l pointer' href='/about'>Skills</p>
-        <p className='f6 f5-l link bg-animate black-80 hover-bg-light-yellow dib pa3 ph4-l pointer' href='/contact'>Testimonials</p>
+        <p className='f6 f5-l link bg-animate black-80 hover-bg-moon-gray dib pa3 ph4-l pointer' href='/'>About</p>
+        <p className='f6 f5-l link bg-animate black-80 hover-bg-moon-gray dib pa3 ph4-l pointer' href='/portfolio'>Education</p>
+        <p className='f6 f5-l link bg-animate black-80 hover-bg-moon-gray dib pa3 ph4-l pointer' href='/shop'>Work Experience</p>
+        <p className='f6 f5-l link bg-animate black-80 hover-bg-moon-gray dib pa3 ph4-l pointer' href='/about'>Skills</p>
+        <p className='f6 f5-l link bg-animate black-80 hover-bg-moon-gray dib pa3 ph4-l pointer' href='/contact'>Testimonials</p>
       </nav>
     </header>
   );
