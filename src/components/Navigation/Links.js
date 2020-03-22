@@ -1,5 +1,4 @@
 import React from 'react';
-import './Links.css';
 
 // simple component with no state so we don't need to make it a className
 const Links = () => {
