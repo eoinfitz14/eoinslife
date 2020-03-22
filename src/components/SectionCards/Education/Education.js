@@ -4,7 +4,7 @@ import React from 'react';
 const Education = () => {
   return (
     <div >
-      <article className='center w-60 pa2 hidden ba br3 b--black-80 mv4'>
+      <article className='center w-70 pa2 hidden ba br3 b--black-80 mv4'>
         <h1 className='f4 bg-near-white br3 br--top black-50 mv0 pv2 ph3 baskerville'>
           EDUCATION
         </h1>
