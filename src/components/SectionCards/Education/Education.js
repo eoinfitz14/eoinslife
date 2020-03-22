@@ -4,12 +4,12 @@ import React from 'react';
 const Education = () => {
   return (
     <div >
-      <article className='center w-70 pa2 hidden ba br3 b--black-80 mv4'>
-        <h1 className='f4 bg-near-white br3 br--top black-50 mv0 pv2 ph3 baskerville'>
+      <article className='center w-70 pa2 hidden br3 b--black-80 mv4'>
+        <h1 className='tl f4 bg-near-white br3 br--top black-50 mv0 pv2 ph3 baskerville'>
           EDUCATION
         </h1>
-        <div className='center pa1 bt b--black-10'>
-          <p className='center lh-copy measure avenir'>
+        <div className='center pa1 lh-copy measure avenir'>
+          <p>
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
             tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
             vero eos et accusam et justo duo dolores et ea rebum.
