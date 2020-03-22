@@ -1,6 +1,6 @@
 
 .backgroundGradient {
-  background: linear-gradient(89deg, #9D9D9D 0%, #FDFDFD 100%); /* w3c */
+  background: linear-gradient(180deg, rgb(98, 207, 235) 0%, #FDFDFD 100%); /* w3c */
 }
 .ba {
   border-style: solid;
