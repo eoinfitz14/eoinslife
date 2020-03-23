@@ -1,6 +1,9 @@
 import React from 'react';
+import Scroll from 'react-scroll';
 import Links from './Links';
 import './Navigation.css';
+
+const Link = Scroll.Link;
 
 // simple component with no state so we don't need to make it a class
 const Navigation = () => {
@@ -14,12 +17,14 @@ const Navigation = () => {
       <div className='mt4'>
         <Links/>
       </div>
-      <nav className='bt bb tc mw7 center'>
-        <p className='f6 f5-l link bg-animate black-80 hover-bg-lightest-blue dib pa3 ph4-l pointer' href='/'>About</p>
-        <p className='f6 f5-l link bg-animate black-80 hover-bg-lightest-blue dib pa3 ph4-l pointer' href='/portfolio'>Education</p>
-        <p className='f6 f5-l link bg-animate black-80 hover-bg-lightest-blue dib pa3 ph4-l pointer' href='/shop'>Work Experience</p>
-        <p className='f6 f5-l link bg-animate black-80 hover-bg-lightest-blue dib pa3 ph4-l pointer' href='/about'>Skills</p>
-        <p className='f6 f5-l link bg-animate black-80 hover-bg-lightest-blue dib pa3 ph4-l pointer' href='/about'>Awards/Certificates</p>
+      <nav className='bt bb tc mw8 center'>
+        <ul>
+          <Link to='about' spy={true} smooth={true} duration={500} activeClass='active' className='f6 f5-l link bg-animate black-80 hover-bg-lightest-blue dib pa3 ph4-l pointer'>About</Link>
+          <Link to='education' spy={true} smooth={true} duration={500} activeClass='active' className='f6 f5-l link bg-animate black-80 hover-bg-lightest-blue dib pa3 ph4-l pointer'>Education</Link>
+          <Link to='work-experience' spy={true} smooth={true} duration={500} activeClass='active' className='f6 f5-l link bg-animate black-80 hover-bg-lightest-blue dib pa3 ph4-l pointer'>Work Experience</Link>
+          <Link to='skills' spy={true} smooth={true} duration={500} activeClass='active' className='f6 f5-l link bg-animate black-80 hover-bg-lightest-blue dib pa3 ph4-l pointer'>Skills</Link>
+          <Link to='awards-certificates' spy={true} smooth={true} duration={500} activeClass='active' className='f6 f5-l link bg-animate black-80 hover-bg-lightest-blue dib pa3 ph4-l pointer'>Awards/Certificates</Link>
+        </ul>
       </nav>
     </header>
   );
