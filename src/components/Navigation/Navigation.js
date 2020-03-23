@@ -19,11 +19,11 @@ const Navigation = () => {
       </div>
       <nav className='bt bb tc mw8 center'>
         <ul>
-          <Link to='about' spy={true} smooth={true} duration={500} activeClass='active' className='f6 f5-l link bg-animate black-80 hover-bg-lightest-blue dib pa3 ph4-l pointer'>About</Link>
-          <Link to='education' spy={true} smooth={true} duration={500} activeClass='active' className='f6 f5-l link bg-animate black-80 hover-bg-lightest-blue dib pa3 ph4-l pointer'>Education</Link>
-          <Link to='work-experience' spy={true} smooth={true} duration={500} activeClass='active' className='f6 f5-l link bg-animate black-80 hover-bg-lightest-blue dib pa3 ph4-l pointer'>Work Experience</Link>
-          <Link to='skills' spy={true} smooth={true} duration={500} activeClass='active' className='f6 f5-l link bg-animate black-80 hover-bg-lightest-blue dib pa3 ph4-l pointer'>Skills</Link>
-          <Link to='awards-certificates' spy={true} smooth={true} duration={500} activeClass='active' className='f6 f5-l link bg-animate black-80 hover-bg-lightest-blue dib pa3 ph4-l pointer'>Awards/Certificates</Link>
+          <Link to='about' spy={true} smooth={true} duration={750} activeClass='active' className='f6 f5-l link bg-animate black-80 hover-bg-lightest-blue dib pa3 ph4-l pointer'>About</Link>
+          <Link to='education' spy={true} smooth={true} duration={750} activeClass='active' className='f6 f5-l link bg-animate black-80 hover-bg-lightest-blue dib pa3 ph4-l pointer'>Education</Link>
+          <Link to='work-experience' spy={true} smooth={true} duration={750} activeClass='active' className='f6 f5-l link bg-animate black-80 hover-bg-lightest-blue dib pa3 ph4-l pointer'>Work Experience</Link>
+          <Link to='skills' spy={true} smooth={true} duration={750} activeClass='active' className='f6 f5-l link bg-animate black-80 hover-bg-lightest-blue dib pa3 ph4-l pointer'>Skills</Link>
+          <Link to='awards-certificates' spy={true} smooth={true} duration={750} activeClass='active' className='f6 f5-l link bg-animate black-80 hover-bg-lightest-blue dib pa3 ph4-l pointer'>Awards/Certificates</Link>
         </ul>
       </nav>
     </header>
