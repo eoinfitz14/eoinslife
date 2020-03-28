@@ -2,10 +2,10 @@ import React from 'react';
 
 // simple component with no state so we don't need to make it a class
 const About = () => {
-  return (
-    <div>
-      <article className='center w-70 pa2 hidden ba br3 bg-white b--black-80 mv4'>
-        <h1 className='f4 bg-near-white br3 br--top black-50 mv0 pv2 ph3 baskerville'>
+  return ( //bab- -black-80
+    <div className='bg-washed-yellow pt6 pb6 avenir'>
+    <article className='center blur w-70 pa5 hidden br3 mv4 shadow-3'>
+      <h1 className='f4 br3 br--top black mv0 pv2 ph3 baskerville'>
           ABOUT
         </h1>
         <div className='center pa1 lh-copy measure avenir'>
