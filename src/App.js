@@ -10,8 +10,6 @@ import { Element } from 'react-scroll';
 
 class App extends Component { // need class to handle state if needs be
 
-  
-
   render(){
     return (
       <div className="App">

@@ -9,3 +9,7 @@
  .blur {
     backdrop-filter: blur(25px);
 }
+
+.about-bg {
+  background-color: FFDFD3;
+}

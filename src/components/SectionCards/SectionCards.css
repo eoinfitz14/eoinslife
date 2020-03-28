@@ -1,0 +1,44 @@
+.about-bg {
+  background-color: #FFDFD3;
+}
+
+.awards-bg {
+  background: url(AwardsCertificates/awards.jpeg);
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  margin: 20px;
+}
+
+.educ-bg {
+  background: url(Education/education.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  margin: 20px;
+}
+
+.skills-bg {
+  background: url(Skills/skills.jpeg);
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  margin: 20px;
+}
+
+.work-bg {
+  background: url(WorkExperience/work.jpeg);
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  margin: 20px;
+}
+
+ .blur {
+    backdrop-filter: blur(25px);
+}
+

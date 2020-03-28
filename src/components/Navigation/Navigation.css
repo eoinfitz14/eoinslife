@@ -1,3 +1,4 @@
 .backgroundGradient {
-  background: linear-gradient(180deg, rgb(98, 207, 235) 0%, #FDFDFD 100%); /* w3c */
+  /* background: linear-gradient(180deg, #FDFDFD 0%, #FFDFD3 100%); w3c */
+  background-color: #FDFDFD;
 }
