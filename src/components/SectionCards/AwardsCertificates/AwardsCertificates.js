@@ -4,7 +4,7 @@ import React from 'react';
 const AwardsCertificates = () => {
   return (
     <div >
-      <article className='center w-70 pa2 hidden br3 b--black-80 mv4'>
+      <article className='center w-70 pa2 hidden br3 bg-white b--black-80 mv4'>
         <h1 className='tl f4 bg-near-white br3 br--top black-50 mv0 pv2 ph3 baskerville'>
         AWARDS/CERTIFICATES
         </h1>
