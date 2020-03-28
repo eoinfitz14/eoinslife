@@ -19,9 +19,11 @@ class App extends Component { // need class to handle state if needs be
         <Element id='about' >
           <About />
         </Element>
+        <section>
         <Element id='education' >
           <Education />
         </Element>
+        </section>
         <Element id='work-experience' >
           <WorkExperience />
         </Element>

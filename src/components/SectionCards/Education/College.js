@@ -3,7 +3,7 @@ import React from 'react';
 // simple component with no state so we don't need to make it a class
 const College = () => {
   return (
-    <div className='white fw9 avenir'>
+    <div className='avenir'>
       <p className='pa1'>
         <span className='fl underline'>
           BAI Computer Engineering, Trinity College Dublin
