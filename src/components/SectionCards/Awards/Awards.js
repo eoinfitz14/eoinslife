@@ -1,12 +1,13 @@
 import React from 'react';
 import '../SectionCards.css';
+
 // simple component with no state so we don't need to make it a class
-const WorkExperience = () => {
+const Awards = () => {
   return (
-    <div className='work-bg pv5 avenir'>
+    <div className='awards-bg pv5 avenir'>
       <article className='center blur w-70 pa5 hidden br3 mv4 shadow-3'>
         <h1 className='f4 br3 br--top black mv0 pv2 ph3 baskerville'>
-          WORK EXPERIENCE
+        AWARDS
         </h1>
         <div className='center pa1 lh-copy measure avenir'>
           <p>
@@ -20,4 +21,4 @@ const WorkExperience = () => {
   );
 }
 
-export default WorkExperience; 
+export default Awards; 

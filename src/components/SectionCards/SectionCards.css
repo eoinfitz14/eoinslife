@@ -1,5 +1,8 @@
 .about-bg {
+  background: url(az-subtle.png);
+  /* background-color: #FFDFD3; */
   background-color: #FFDFD3;
+  margin: 20px;
 }
 
 .awards-bg {
@@ -29,7 +32,7 @@
   margin: 20px;
 }
 
-.work-bg {
+.experience-bg {
   background: url(WorkExperience/work.jpeg);
   background-attachment: fixed;
   background-size: cover;

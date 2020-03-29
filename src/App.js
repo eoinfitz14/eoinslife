@@ -3,9 +3,9 @@ import Navigation from './components/Navigation/Navigation';
 import About from './components/SectionCards/About/About';
 import './App.css';
 import Education from './components/SectionCards/Education/Education';
-import WorkExperience from './components/SectionCards/WorkExperience/WorkExperience';
+import Experience from './components/SectionCards/Experience/Experience';
 import Skills from './components/SectionCards/Skills/Skills';
-import AwardsCertificates from './components/SectionCards/AwardsCertificates/AwardsCertificates';
+import Awards from './components/SectionCards/Awards/Awards';
 import { Element } from 'react-scroll';
 
 class App extends Component { // need class to handle state if needs be
@@ -22,14 +22,14 @@ class App extends Component { // need class to handle state if needs be
           <Education />
         </Element>
         </section>
-        <Element id='work-experience' >
-          <WorkExperience />
+        <Element id='experience' >
+          <Experience />
         </Element>
         <Element id='skills' >
           <Skills />
         </Element>
-        <Element id='awards-certificates' >
-          <AwardsCertificates />
+        <Element id='awards' >
+          <Awards />
         </Element>
       </div>
     );

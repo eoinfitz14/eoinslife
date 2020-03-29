@@ -9,12 +9,24 @@ const Skills = () => {
       <h1 className='f4 br3 br--top black mv0 pv2 ph3 baskerville'>
         SKILLS
         </h1>
-        <div className='center pa1 lh-copy measure avenir'>
-          <p>
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-            tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
-            vero eos et accusam et justo duo dolores et ea rebum.
-          </p>
+        <div className='center tl list p10 '>
+          <ul>
+            <li>Java</li>
+            <li>NodeJS</li>
+            <li>ReactJS</li>
+            <li>ExpressJS</li>
+            <li>C++</li>
+            <li>OpenGL</li>
+            <li>MySQL</li>
+            <li>PostgreSQL</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Mac</li>
+            <li>Windows</li>
+            <li>Linux</li>
+            <li>JMeter</li>
+            <li>Cucumber BDD</li>
+          </ul>
         </div>
       </article>
     </div>
