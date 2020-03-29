@@ -1,11 +1,8 @@
-.skills-bg {
-  background: url(skills.jpeg);
-  background-attachment: fixed;
-  background-size: cover;
-  position: relative;
-  overflow: hidden;
-  margin: 20px;
-}
- .blur {
-    backdrop-filter: blur(25px);
+.ul4 {
+  -moz-column-count: 4;
+  -moz-column-gap: 20px;
+  -webkit-column-count: 4;
+  -webkit-column-gap: 20px;
+  column-count: 4;
+  column-gap: 20px;
 }

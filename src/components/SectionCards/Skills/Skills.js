@@ -1,5 +1,6 @@
 import React from 'react';
 import '../SectionCards.css';
+import './Skills.css';
 
 // simple component with no state so we don't need to make it a class
 const Skills = () => {
@@ -10,7 +11,7 @@ const Skills = () => {
         SKILLS
         </h1>
         <div className='center tl list p10 '>
-          <ul>
+          <ul className='ul4'>
             <li>Java</li>
             <li>NodeJS</li>
             <li>ReactJS</li>
