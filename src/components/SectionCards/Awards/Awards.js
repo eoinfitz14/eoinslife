@@ -8,13 +8,30 @@ const Awards = () => {
     <div className='awards-bg pv5 avenir'>
       <article className='center blur w-70 pa5 hidden br3 mv4 shadow-3'>
         <h1 className='f4 br3 br--top black mv0 pv2 ph3 baskerville'>
-        AWARDS
+        AWARDS & ACHIEVEMENTS
         </h1>
         <div className='tl p10'>
-          <ul>
-            <li className='star'>The Complete Web Developer in 2020: Zero to Mastery (Udemy Certificate)</li>
-            <li className='star'>Tennis Ireland Level 1 Coaching Qualification (9 month course)</li>
-            <li className='star'>SSI Open Water Diver Licence</li>
+          <ul className='fw6'>
+            <li className='star'>First Class Honours in Computer Engineering</li>
+            <li className='star'>Book token awarded for First Class Honours in 3rd year exams</li>
+            <li className='star'>Outstanding Contribution to Tennis (secondary school graduation)</li>
+            <li className='star'>School Prefect</li>
+            <li className='star'>Ronnie Delany Sports Scholarship</li>
+            <ul className='mb3 fw4'>
+              <li>
+                Scholarship presented by olympic gold medalist, Ronnie Delany on behalf of CUS the Past Pupils Union.
+                Funding went towards coaching fees and travel expenses for international tennis tournaments.
+              </li>
+            </ul>
+            <li className='star'>World Ranked Junior Tennis Player</li>
+            <li className='star'>Transition Year Mini Company National Finalist</li>
+            <ul className='mb3 fw4'>
+              <li>
+                I acted as honorary secretary for our mini company - Gym Journals. We sold progress-tracking journals that allowed
+                the user to log their work at a time when online fitness was rapidly growing in popularity. Similar products can be seen
+                in the market today
+              </li>
+            </ul>
           </ul>
         </div>
       </article>
