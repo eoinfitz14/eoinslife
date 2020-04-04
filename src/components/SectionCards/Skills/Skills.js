@@ -31,6 +31,14 @@ const Skills = () => {
             <li>Cucumber BDD</li>
           </ul>
         </div>
+        <div className='tl p10'>
+          <h4>Certificates</h4>
+          <ul>
+            <li>The Complete Web Developer in 2020: Zero to Mastery (Udemy Certificate)</li>
+            <li>Tennis Ireland Level 1 Coaching Qualification (9 month course)</li>
+            <li>SSI Open Water Diver Licence</li>
+          </ul>
+        </div>
       </article>
     </div>
   );

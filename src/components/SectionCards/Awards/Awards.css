@@ -1,0 +1,9 @@
+.star {
+  list-style: none;
+  margin-bottom: 5px;
+}
+
+.star::before {
+  content: '\2B50';
+  margin-right: 20px;
+}

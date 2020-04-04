@@ -1,5 +1,6 @@
 import React from 'react';
 import '../SectionCards.css';
+import './Awards.css';
 
 // simple component with no state so we don't need to make it a class
 const Awards = () => {
@@ -9,12 +10,12 @@ const Awards = () => {
         <h1 className='f4 br3 br--top black mv0 pv2 ph3 baskerville'>
         AWARDS
         </h1>
-        <div className='center pa1 lh-copy measure avenir'>
-          <p>
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-            tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
-            vero eos et accusam et justo duo dolores et ea rebum.
-          </p>
+        <div className='tl p10'>
+          <ul>
+            <li className='star'>The Complete Web Developer in 2020: Zero to Mastery (Udemy Certificate)</li>
+            <li className='star'>Tennis Ireland Level 1 Coaching Qualification (9 month course)</li>
+            <li className='star'>SSI Open Water Diver Licence</li>
+          </ul>
         </div>
       </article>
     </div>
