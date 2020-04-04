@@ -6,7 +6,7 @@
 }
 
 .awards-bg {
-  background: url(AwardsCertificates/awards.jpeg);
+  background: url(Awards/awards.jpeg);
   background-attachment: fixed;
   background-size: cover;
   position: relative;
@@ -33,7 +33,7 @@
 }
 
 .experience-bg {
-  background: url(WorkExperience/work.jpeg);
+  background: url(Experience/work.jpeg);
   background-attachment: fixed;
   background-size: cover;
   position: relative;
