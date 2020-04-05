@@ -29,6 +29,10 @@ const Skills = () => {
             <li>Linux</li>
             <li>JMeter</li>
             <li>Cucumber BDD</li>
+            <li>Agile</li>
+            <li>Scrum</li>
+            <li>Jira</li>
+            <li>Confluence</li>
           </ul>
         </div>
         <div className='tl p10'>

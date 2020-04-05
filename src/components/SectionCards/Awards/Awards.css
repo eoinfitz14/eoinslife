@@ -1,9 +1,13 @@
-.star {
+li.star {
   list-style: none;
   margin-bottom: 5px;
 }
 
-.star::before {
+li.star::before {
   content: '\2B50';
   margin-right: 20px;
+}
+
+.no-bullet {
+  list-style: none;
 }

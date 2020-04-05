@@ -17,7 +17,7 @@ const Awards = () => {
             <li className='star'>Outstanding Contribution to Tennis (secondary school graduation)</li>
             <li className='star'>School Prefect</li>
             <li className='star'>Ronnie Delany Sports Scholarship</li>
-            <ul className='mb3 fw4'>
+            <ul className='mb3 fw4 no-bullet'>
               <li>
                 Scholarship presented by olympic gold medalist, Ronnie Delany on behalf of CUS the Past Pupils Union.
                 Funding went towards coaching fees and travel expenses for international tennis tournaments.
@@ -25,11 +25,11 @@ const Awards = () => {
             </ul>
             <li className='star'>World Ranked Junior Tennis Player</li>
             <li className='star'>Transition Year Mini Company National Finalist</li>
-            <ul className='mb3 fw4'>
+            <ul className='mb3 fw4 no-bullet'>
               <li>
                 I acted as honorary secretary for our mini company - Gym Journals. We sold progress-tracking journals that allowed
                 the user to log their work at a time when online fitness was rapidly growing in popularity. Similar products can be seen
-                in the market today
+                in the market today.
               </li>
             </ul>
           </ul>

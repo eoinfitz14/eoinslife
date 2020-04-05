@@ -14,16 +14,16 @@ const College = () => {
       </p>
       <br></br>
       <div className='pv3 flex'>
-        <div className='outline h0 w-25 pa3 mr2'>
+        <div className='outline h0 w-25 pa3 mr2 grow'>
           <code>1st year (General Eng.)</code>
         </div>
-        <div className='outline h0 w-25 pa3 mr2'>
+        <div className='outline h0 w-25 pa3 mr2 grow'>
           <code>2nd year (General Eng.)</code>
         </div>
-        <div className='outline h0 w-25 pa3 mr2'>
+        <div className='outline h0 w-25 pa3 mr2 grow'>
           <code>3rd year (Specialized)</code>
         </div>
-        <div className='outline h0 w-25 pa3 mr2'>
+        <div className='outline h0 w-25 pa3 mr2 grow'>
           <code>4th year (Specialized)</code>
         </div>
       </div>
