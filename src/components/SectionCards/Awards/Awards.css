@@ -1,6 +1,6 @@
 li.star {
   list-style: none;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 li.star::before {

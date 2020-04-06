@@ -1,0 +1,14 @@
+ul.no-margin {
+  padding: 0;
+}
+
+li.book {
+  list-style: none;
+  margin-bottom: 5px;
+}
+
+li.book::before {
+  content: '\1F4D6';
+  margin-left: 0;
+  margin-right: 20px;
+}
