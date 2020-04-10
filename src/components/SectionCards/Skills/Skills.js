@@ -10,9 +10,11 @@ const Skills = () => {
         <h1 className='f4 br3 br--top black mv0 pv2 ph3 baskerville'>
           SKILLS
         </h1>
+        <div className='tl underline pv3'>
+            Proven Technical Skills:
+        </div>
         <div className='center tl list p10 '>
-          <h4>Proven Technical Abilities</h4>
-          <ul className='ul4'>
+          <ul id='computerList' className='ul4'>
             <li>Java</li>
             <li>NodeJS</li>
             <li>ReactJS</li>
@@ -35,9 +37,11 @@ const Skills = () => {
             <li>Confluence</li>
           </ul>
         </div>
-        <div className='tl p10'>
-          <h4>Certificates</h4>
-          <ul>
+        <div className='tl underline pv3'>
+            Certificates:
+        </div>
+        <div className='tc p10'>
+          <ul id='scrollList'>
             <li>The Complete Web Developer in 2020: Zero to Mastery (Udemy Certificate)</li>
             <li>Tennis Ireland Level 1 Coaching Qualification (9 month course)</li>
             <li>SSI Open Water Diver Licence</li>

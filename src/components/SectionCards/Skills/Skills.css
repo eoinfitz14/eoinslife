@@ -1,8 +1,47 @@
 .ul4 {
-  -moz-column-count: 4;
-  -moz-column-gap: 20px;
-  -webkit-column-count: 4;
-  -webkit-column-gap: 20px;
-  column-count: 4;
-  column-gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
+#computerList {
+  list-style: none;
+  padding: 0;
+}
+
+#computerList li {
+  position: relative;
+  padding-left: 40px;
+  margin-bottom: 6px;
+}
+
+#computerList li::before {
+  position: absolute;
+  content: '\1F4BB';
+  left: 0;
+  top: 0;
+}
+
+#scrollList {
+  list-style: none;
+  padding: 0;
+}
+
+#scrollList li {
+  position: relative;
+  padding-left: 40px;
+  margin-bottom: 6px;
+}
+
+#scrollList li::before {
+  position: absolute;
+  content: '\1F4DC';
+  left: 0;
+  top: 0;
+}
+#scrollList li::after {
+  position: absolute;
+  content: '\1F4DC';
+  right: 0;
+  top: 0;
 }
