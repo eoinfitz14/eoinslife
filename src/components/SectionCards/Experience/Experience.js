@@ -4,7 +4,7 @@ import '../SectionCards.css';
 const Experience = () => {
   return (
     <div className='experience-bg pv5 avenir'>
-      <article className='center blur w-70 pa5 hidden br3 mv4 shadow-3'>
+      <article className='center blur-coffee w-70 pa5 hidden br3 mv4 shadow-3'>
         <h1 className='f4 br3 br--top black mv0 pv2 ph3 baskerville'>
           WORK EXPERIENCE
         </h1>

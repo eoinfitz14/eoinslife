@@ -42,6 +42,9 @@
 }
 
  .blur {
-    backdrop-filter: blur(25px);
+   backdrop-filter: blur(25px);
 }
 
+.blur-coffee {
+  backdrop-filter: blur(50px);
+}
