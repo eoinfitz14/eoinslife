@@ -2,3 +2,10 @@
   /* background: linear-gradient(180deg, #FDFDFD 0%, #FFDFD3 100%); w3c */
   background-color: #CFFFE5;;
 }
+
+.ul-nav{
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+}

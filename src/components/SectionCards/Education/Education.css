@@ -1,14 +1,17 @@
-ul.no-margin {
+#bookList {
+  list-style: none;
   padding: 0;
 }
 
-li.book {
-  list-style: none;
-  margin-bottom: 5px;
+#bookList li {
+  position: relative;
+  padding-left: 40px;
+  margin-bottom: 6px;
 }
 
-li.book::before {
+#bookList li::before {
+  position: absolute;
   content: '\1F4D6';
-  margin-left: 0;
-  margin-right: 20px;
+  left: 0;
+  top: 0;
 }
