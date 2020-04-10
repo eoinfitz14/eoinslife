@@ -22,6 +22,24 @@
   top: 0;
 }
 
+#checkList {
+  list-style: none;
+  padding: 0;
+}
+
+#checkList li {
+  position: relative;
+  padding-left: 40px;
+  margin-bottom: 6px;
+}
+
+#checkList li::before {
+  position: absolute;
+  content: '\2705';
+  left: 0;
+  top: 0;
+}
+
 #scrollList {
   list-style: none;
   padding: 0;
