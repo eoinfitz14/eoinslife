@@ -86,9 +86,10 @@ const Experience = () => {
               RS Academy is one of Ireland's top tennis academies. Players that are part of the academy have been national champions in
               both junior and senior categories, received scholarships to the US to play college tennis and even represented their
               country in the Davis Cup. Having trained in this academy until I was 19, I had an immense passion for helping the players
-              get to where they wanted to be. My responsibilities included:
+              get to where they wanted to be and tried to create an environment where the players loved to come to training. 
+              My responsibilities included:
           </p>
-          <ul className='tl'>
+          <ul id='experienceList' className='tl'>
             <li>Helping youth players reach their goals at national and international level</li>
             <li>Organising trips and travelling with juniors aged 11-14 to international tournaments</li>
             <li>Planning and executing 14 hours of lessons per week while completing a full-time engineering degree</li>
@@ -98,7 +99,7 @@ const Experience = () => {
           </ul>
         </div>
         <div className='pt1'>
-          <p>
+          <p className='fw6'>
             <span className='tl fl underline'>
               Assistant Tennis Professional - Jericho Tennis Club, Vancouver
             </span>
@@ -107,16 +108,19 @@ const Experience = () => {
             </span>
           </p>
           <br></br>
-          <ul className='tl'>
-            <li>Coaching in one of Vancouver's most prestigious sports clubs</li>
+          <p className='tl lh-copy fw6'>
+            Jericho Tennis Club is one of Vancouver's most prestigious sports clubs. I worked here for two Summers in a row while in
+            college and loved every hour I worked there. Here, I was tasked with:
+          </p>
+          <ul id='experienceList' className='tl'>
             <li>Running tennis camps for 4 to 6-year-olds and assisting with 8 to 12-year-olds</li>
-            <li>Always thinking of new and creative games or drills to keep the kids engaged for the entire game</li>
+            <li>Always thinking of new and creative games or drills to keep the kids engaged for the entire day</li>
             <li>Providing private lessons to adults of all levels</li>
             <li>Playing exhibition matches against club professionals at events for members</li>
           </ul>
         </div>
         <div className='pt1'>
-          <p>
+          <p className='fw6'>
             <span className='tl fl underline'>
               Assistant Tennis Professional - Stanley Park Tennis, Vancouver
             </span>
@@ -125,19 +129,23 @@ const Experience = () => {
             </span>
           </p>
           <br></br>
-          <ul className='tl'>
-            <li>Assisting in Vancouver's beautiful Stanley Park in the most diverse environment I have ever worked in</li>
+          <p className='tl lh-copy fw6'>
+            Stanley Park holds a special place in my heart. I was lucky enough to coach in one of the most beautful settings in the world.
+            Stanley Park Tennis was a microcosm of Vancouver - diverse, picturesque, fun and friendly. Coaching here was all about giving
+            people an opportunity to improve or learn something new in the most enjoyable, inclusive way possible.
+          </p>
+          <ul id='experienceList' className='tl'>
             <li>
-            We coached many groups from the Vancouver Tennis Association (VTA), a non-profit organization
-            fosters and promotes goodwill, fellowship, and healthy competition among tennis players in the gay, lesbian, bisexual,
-            transgender, queer (LGBTQ+) community
+            Coaching groups from the Vancouver Tennis Association (VTA), a non-profit organization that fosters and promotes goodwill,
+            fellowship, and healthy competition among tennis players in the gay, lesbian, bisexual, transgender, queer (LGBTQ+) community
             </li>
             <li>Coaching teens and adults of all levels from 12 to 70+ years old</li>
+            <li>Running social events where people come to play 1-2 hours of matches and meet new people</li>
             <li>Working in the pro shop selling tennis equipment, refreshments and booking lessons</li>
           </ul>
         </div>
         <div className='pt1'>
-          <p>
+          <p className='fw6'>
             <span className='tl fl underline'>
               Tennis Assistant / Access Player - Leinster Tennis
             </span>
@@ -146,16 +154,14 @@ const Experience = () => {
             </span>
           </p>
           <br></br>
-          <ul className='tl'>
-            <li>
-              Brought into Leinster Tennis as an access player to lead the u18 players by example having been
-              in their shoes just 3 years before
-            </li>
-            <li>Gaining extra experience while completing the Tennis Ireland Level 1 coaching course</li>
-          </ul>
+          <p className='tl lh-copy fw6'>
+            Having trained with Leinster tennis from 12 to 18 years old, I was asked to join in with their under 18's squad to set
+            the bar for how you should train. This was while I was doing a the Tennis Ireland Level 1 Coach course on weekends and so,
+            allowed me to gain more experience as a coach.
+          </p>
         </div>
         <div className='pt1'>
-          <p>
+          <p className='fw6'>
             <span className='tl fl underline'>
               Customer Service Sales Assistant - The Garden House, Malahide
             </span>
@@ -164,6 +170,9 @@ const Experience = () => {
             </span>
           </p>
           <br></br>
+          <p className='tl lh-copy fw6'>
+            
+          </p>
           <ul className='tl'>
             <li>
               Working in the front of house and dealing with customers, utilising customer service
