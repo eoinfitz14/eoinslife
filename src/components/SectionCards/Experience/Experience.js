@@ -173,7 +173,7 @@ const Experience = () => {
           <p className='tl lh-copy fw6'>
             The Garden House is a premium garden centre that sells quality plants, garden furniture and barbecues
           </p>
-          <ul className='tl'>
+          <ul id='experienceList' className='tl'>
             <li>
               Working in the front of house and dealing with customers, utilising customer service
               skills and carrying out administration tasks
