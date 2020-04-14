@@ -10,7 +10,7 @@ const Awards = () => {
         <h1 className='f4 br3 br--top black mv0 pv2 ph3 baskerville'>
         AWARDS & ACHIEVEMENTS
         </h1>
-        <div className='tl p10'>
+        <div className='tl'>
           <ul className='fw6'>
             <li className='star'>First Class Honours in Computer Engineering</li>
             <li className='star'>Book token awarded for First Class Honours in 3rd year exams</li>
