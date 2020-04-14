@@ -171,7 +171,7 @@ const Experience = () => {
           </p>
           <br></br>
           <p className='tl lh-copy fw6'>
-            
+            The Garden House is a premium garden centre that sells quality plants, garden furniture and barbecues
           </p>
           <ul className='tl'>
             <li>
@@ -181,9 +181,8 @@ const Experience = () => {
             <li>Managing the EPOS at the Cash desk and dealing with purchases</li>
             <li>Marketing and Merchandising stock to all areas within the centre</li>
             <li>Answer telephone calls and dealing with customer queries for items</li>
-            <li>All of the above while timing making sure the entire stock was watered and animals (pigs & hens) were fed</li>
+            <li>All of the above while timing making sure all of the stock was watered and animals (pigs & hens) were fed</li>
             <li>Delivering and assembling garden furniture, barbecues and water features</li>
-            <li>Christmas trees (such a feel good task)</li>
           </ul>
         </div>
       </article>
