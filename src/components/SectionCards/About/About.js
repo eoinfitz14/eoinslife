@@ -4,7 +4,7 @@ import './About.css';
 const About = () => {
   return ( //bab- -black-80
     <div className='about-bg pv5 avenir'>
-      <div className='container center blur w-70 pa5 br3 mv4 shadow-3'>
+      <div className='about-container center blur w-70 pa5 br3 mv4 shadow-3'>
         <div>
           <h1 className='f4 br3 br--top black mv0 pv2 ph3 baskerville'>
             DESCRIPTION

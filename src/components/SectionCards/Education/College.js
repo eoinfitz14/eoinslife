@@ -1,45 +1,49 @@
 import React from 'react';
 import './Education.css';
+import '../SectionCards.css';
 
 // simple component with no state so we don't need to make it a class
 const College = () => {
   return (
     <div>
-      <p className='pa1'>
-        <span className='fl underline'>
+      <div className='tl lh-copy pv3'>
+        <div className='organization-name'>
           BAI Computer Engineering, Trinity College Dublin
-        </span>
-        <span className='fr underline'>
-          September 2015 - July 2019
-        </span>
-      </p>
-      <br></br>
-      <div className='pv3 flex'>
-        <div className='outline h0 w-25 pa3 mr2 grow'>
-          <code>1st year (General Eng.)</code>
         </div>
-        <div className='outline h0 w-25 pa3 mr2 grow'>
-          <code>2nd year (General Eng.)</code>
-        </div>
-        <div className='outline h0 w-25 pa3 mr2 grow'>
-          <code>3rd year (Specialized)</code>
-        </div>
-        <div className='outline h0 w-25 pa3 mr2 grow'>
-          <code>4th year (Specialized)</code>
-        </div>
+        September 2015 - July 2019
       </div>
-      <div className='pv3 flex'>
-        <div className='w-25 pa1 mr2'>
-          <code>Second Class Honours, first division (2.1)</code>
+      <div className='pb3 grade-container'>
+        <div>
+          <div className='outline h0 pa3 mr2 grow'>
+            <code>1st year (General Eng.)</code>
+          </div>
+          <div className='pa1 mr2'>
+            <code>Second Class Honours, first division (2.1)</code>
+          </div>
         </div>
-        <div className='w-25 pa1 mr2'>
-          <code>Second Class Honours, second division (2.2)</code>
+        <div>
+          <div className='outline h0 pa3 mr2 grow'>
+            <code>2nd year (General Eng.)</code>
+          </div>
+          <div className='pa1 mr2'>
+            <code>Second Class Honours, second division (2.2)</code>
+          </div>
         </div>
-        <div className='w-25 pa1 mr2'>
-          <code>First Class Honours (1.1)</code>
+        <div>
+          <div className='outline h0 pa3 mr2 grow'>
+              <code>3rd year (Specialized)</code>
+            </div>
+            <div className='pa1 mr2'>
+              <code>First Class Honours (1.1)</code>
+            </div>
         </div>
-        <div className='w-25 pa1 mr2'>
-          <code>First Class Honours (1.1)</code>
+        <div>
+          <div className='outline h0 pa3 mr2 grow'>
+            <code>4th year (Specialized)</code>
+          </div>
+          <div className='pa1 mr2'>
+            <code>First Class Honours (1.1)</code>
+          </div>
         </div>
       </div>
       <div className='tl underline pt3'>

@@ -41,6 +41,10 @@
   margin: 20px;
 }
 
+.organization-name {
+  font-size: 120%;
+}
+
  .blur {
    backdrop-filter: blur(50px);
 }

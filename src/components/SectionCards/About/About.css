@@ -4,8 +4,15 @@ img {
   width: auto;
 }
 
-.container {
+.about-container {
   display: grid;
   grid-template-columns: 0.9fr 0.7fr 0.4fr;
   margin: 0 8em 0 8em;
+}
+
+@media (max-width: 600px) {
+  .about-container{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }
