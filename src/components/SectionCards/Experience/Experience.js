@@ -21,12 +21,10 @@ const Experience = () => {
           <br></br>
           <p className='tl lh-copy fw6'>
             LexisNexis Risk Solutions (LNRS) utilises Big Data to provide risk analysis tools for a broad range of sectors including
-            Healthcare, Insurance and Governments. I work as a test engineer in the Insurance branch on the Product Delivery team in
-            Dublin. The best part of my job is the people I work with. Even when a sprint is not going to plan and workload
-            increases, morale is always high and in turn, stress is mitigated. As a test engineer I love writing and reviewing code
-            for automated tests in order to "blur the lines" between developers and traditional QAs or manual testers. Soon, we hope 
-            for the roles of software engineer and test engineer to become one where everyone writes feature code as well as test
-            code. My responsibilities include the following - some of which are not standard for my level:
+            Healthcare, Insurance and Governments. I work on the product delivery team in Dublin where I love writing and reviewing 
+            code for automated tests while "blurring the lines" between developers and traditional QAs or manual testers. The end goal
+            is to operate in fully Behaviorur-Driven Development where all engineers write feature code as well as test code.
+            My responsibilities include the following - some of which are not standard for my level in the company:
           </p>
           <ul id='experienceList' className='tl'>
             <li>Writing automated tests using Java and Cucumber BDD</li>
@@ -37,8 +35,8 @@ const Experience = () => {
             <li>Driver for the testing of Dublin's 25+ clients for its main product - Mapview</li>
             <li>Writing automation code and have written an entire automation suite for one project from scratch</li>
             <li>
-              Privacy Champion with LexisNexis Privacy Department! 👮 I represent the Test Engineers in Dublin as a Privacy
-              detective, raising awareness of GDPR compliance and security threats at home or in work
+              Privacy Champion with LexisNexis Privacy Department - raising awareness of GDPR compliance and security threats at home 
+              or in work
             </li>
             <li>Assist other teams in getting started when automating tests with Cucumber for the first time</li>
             <li>Reliability - answering emergency calls out of hours</li>
@@ -83,9 +81,8 @@ const Experience = () => {
           </p>
           <br></br>
           <p className='tl lh-copy fw6'>
-              RS Academy is one of Ireland's top tennis academies. Players that are part of the academy have been national champions in
-              both junior and senior categories, received scholarships to the US to play college tennis and even represented their
-              country in the Davis Cup. Having trained in this academy until I was 19, I had an immense passion for helping the players
+              RS Academy is one of Ireland's top tennis academies. Academy alumni include college players in the US, national champions
+              and Davis Cup players for Ireland. Having trained in this academy until I was 19, I had an immense passion for helping the players
               get to where they wanted to be and tried to create an environment where the players loved to come to training. 
               My responsibilities included:
           </p>
