@@ -26,7 +26,7 @@ const About = () => {
           <h1 className='f4 br3 br--top black mv0 pv2 ph3 baskerville'>
             PRODUCT
           </h1>
-          <p>
+          <p id='profiler'>
             <img src={require('./eoin.jpg')} alt="Photo of Me!" />
           </p>
         </div>

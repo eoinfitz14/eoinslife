@@ -1,4 +1,4 @@
-img {
+#profiler img {
   border-radius: 50%;
   height: auto;
   width: auto;
@@ -10,7 +10,7 @@ img {
   margin: 0 8em 0 8em;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .about-container{
     display: grid;
     grid-template-columns: 1fr;

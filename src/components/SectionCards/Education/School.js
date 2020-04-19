@@ -4,18 +4,29 @@ import React from 'react';
 const School = () => {
   return (
     <div >
-      <p className='pt1'>
-        <span className='fl underline'>
-          Catholic University School, Dublin
-        </span>
-        <span className='fr underline'>
-          September 2009 - June 2015
-        </span>
-        <br></br>
-        <span className='pv3 fl no-underline'>
-            Leaving Certificate - 525 points
-        </span>
-      </p>
+      <div id='college' className='br3 pv3 college-container'>
+        <div>
+          <img className='shadow-3' src={require('./cus.jpg')} alt="CUS" />
+        </div>
+        <div className='fr tl'>
+          <div className='fw5'>
+            <p className='organization-name company-colour mv1'>
+              Leaving Certificate
+            </p>
+            <p className='mv1 role-colour'>
+              Catholic University School
+            </p>
+            <p className='mv1'>
+              September 2009 - June 2015
+            </p>
+          </div>
+          <p className='tl lh-copy'>
+            Words something say lots of words. Words something say lots of words. Words something say lots of words. 
+            Words something say lots of words. Words something say lots of words. Words something say lots of words. 
+            Words something say lots of words. 
+          </p>
+        </div>
+      </div>
     </div>
   );
 }
