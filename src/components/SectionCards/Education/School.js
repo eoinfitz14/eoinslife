@@ -3,12 +3,12 @@ import React from 'react';
 // simple component with no state so we don't need to make it a class
 const School = () => {
   return (
-    <div >
-      <div id='college' className='br3 pv3 college-container'>
-        <div>
-          <img className='shadow-3' src={require('./cus.jpg')} alt="CUS" />
+    <div>
+      <div id='college' className='center br3 pt1 college-container'>
+        <div className='pt1 br3'>
+          <img className='shadow-3 br3' src={require('./cus.jpg')} alt="CUS" />
         </div>
-        <div className='fr tl'>
+        <div className='tl blur pa3 br3 shadow-3'>
           <div className='fw5'>
             <p className='organization-name company-colour mv1'>
               Leaving Certificate

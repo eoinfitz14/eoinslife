@@ -5,7 +5,7 @@ import './Experience.css';
 const Experience = () => {
   return (
     <div className='experience-bg pv5 avenir'>
-      <div id='job' className='center br3 pt1 job-container w-70'>
+      <div id='job' className='center br3 pt1 job-container'>
         <div>
           <img className='shadow-3' src={require('./lexisnexis.jpg')} alt="Garden House Plants" />
         </div>

@@ -1,7 +1,17 @@
+.skill-width {
+  width: 70%;
+}
+
 .ul4 {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-template-rows: 1fr;
+}
+
+.certificates {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-template-rows: 1fr;
 }
 
 #computerList {
@@ -46,6 +56,7 @@
 }
 
 #scrollList li {
+  text-align: left;
   position: relative;
   padding-left: 40px;
   margin-bottom: 6px;
@@ -57,9 +68,21 @@
   left: 0;
   top: 0;
 }
-#scrollList li::after {
-  position: absolute;
-  content: '\1F4DC';
-  right: 0;
-  top: 0;
+
+@media (min-width: 1000px) {
+  #scrollList li {
+    text-align: center;
+  }
+  #scrollList li::after {
+    position: absolute;
+    content: '\1F4DC';
+    right: 0;
+    top: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .skill-width {
+    width: 95%;
+  }
 }
