@@ -1,13 +1,35 @@
-li.star {
+#starList {
   list-style: none;
-  margin-bottom: 10px;
+  padding: 0;
 }
 
-li.star::before {
+#starList li {
+  position: relative;
+  padding-left: 40px;
+  margin-bottom: 6px;
+}
+
+#starList li::before {
+  position: absolute;
   content: '\2B50';
-  margin-right: 20px;
+  left: 0;
+  top: 0;
 }
 
-.no-bullet {
+#noBullet li::before {
+  content:'';
+}
+#noBullet {
   list-style: none;
+  padding-left: 10px;
+}
+
+.awards-width {
+  width: 70%;
+}
+
+@media (max-width: 600px) {
+  .awards-width {
+    width: 95%;
+  }
 }
