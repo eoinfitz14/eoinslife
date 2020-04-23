@@ -16,7 +16,7 @@ const About = () => {
               Working as a Software Engineer in Test allows me to help my team deliver a top quality product in an automated fashion.
             </p>
             <p>
-              Since starting my first job as an engineer I have learned a myriad of technical skills that I didn't learn in college
+              Since starting my first job as an engineer I have learned a myriad of technical skills that I didn't learn in college,
               while getting an insight into what skills I need to learn for a successful career in tech which I spend
               hours of my own time working on.
             </p>

@@ -21,9 +21,9 @@ const School = () => {
             </p>
           </div>
           <p className='tl lh-copy'>
-            Words something say lots of words. Words something say lots of words. Words something say lots of words. 
-            Words something say lots of words. Words something say lots of words. Words something say lots of words. 
-            Words something say lots of words. 
+            As with most people, my time in school holds some of my best memories. CUS enabled me to get an understanding of what
+            it means to work successfully in a team. During my time here I represented the school as a prefect, acted as tennis
+            captain, played 1st team rugby at junior level and even had the opportunity to be involved in a mini-company. 
           </p>
         </div>
       </div>

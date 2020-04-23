@@ -5,6 +5,7 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import 'tachyons';
 
+//This is basically saying grab an element of ID root in index.html and render App.js there
 ReactDOM.render(<App />, document.getElementById('root'));
 
 
