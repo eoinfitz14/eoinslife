@@ -1,0 +1,46 @@
+.header-bg {
+  /* background: linear-gradient(180deg, #FDFDFD 0%, #FFDFD3 100%); w3c */
+  /*background-color: #CFFFE5;;*/
+  background-color: #F1C5C2;
+}
+
+.main-nav{
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  overflow: hidden;
+}
+
+.hamburger-and-side-nav {
+  display: grid;
+  grid-template-columns: 1;
+  position: fixed;
+  z-index: 1;
+}
+
+.side-nav {
+  display: flex;
+  flex-direction: column;
+  opacity: 0.5;
+  margin: 0;
+  padding: 0;
+  height: auto;
+  overflow: auto;
+} 
+
+.side-nav:hover {
+  opacity: 1;
+} 
+
+@media (min-width: 681px) {
+  .side-nav-visibility {
+      display: none !important;
+  }
+}
+
+@media (max-width: 680px) {
+  .main-nav-visibility {
+      display: none !important;
+  }
+}
