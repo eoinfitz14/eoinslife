@@ -13,7 +13,7 @@ const Awards = () => {
         <div className='tl'>
           <ul id='starList' className='fw6'>
             <li className='star'>LexisNexis Recognise Our People Award</li>
-            <li className='star'>First Class Honours in Computer Engineering</li>
+            <li className='star'>First Class Honours degree in Computer Engineering</li>
             <li className='star'>Book token awarded for First Class Honours in 3rd year exams</li>
             <li className='star'>Outstanding Contribution to Tennis (secondary school graduation)</li>
             <li className='star'>School Prefect</li>

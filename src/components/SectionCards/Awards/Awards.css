@@ -28,7 +28,7 @@
   width: 70%;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .awards-width {
     width: 95%;
   }

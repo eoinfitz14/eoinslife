@@ -5,6 +5,9 @@ import './Experience.css';
 const Experience = () => {
   return (
     <div className='experience-bg pv5 avenir'>
+      <h1 className='f4 br3 br--top black mv0 pt2 pb4 ph3 baskerville'>
+        WORK EXPERIENCE
+      </h1>
       <div id='job' className='center br3 pt1 job-container'>
         <div>
           <img className='shadow-3' src={require('./lexisnexis.jpg')} alt="Garden House Plants" />
