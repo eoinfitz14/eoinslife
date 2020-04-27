@@ -84,7 +84,7 @@ class SideNavigation extends Component{
     }
     if(!this.state.toggle){
       return(
-        <div className='side-nav-visibility'>
+        <div className='side-nav-visibility hamburger-and-side-nav'>
           <svg className='fl ml3' viewBox="0 0 96 96" height="2em" onClick={this.handleClick.bind(this)} style={style} >
             <Motion 
               style={{
