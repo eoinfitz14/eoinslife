@@ -5,10 +5,12 @@
 }
 
 .about-container {
-  width: 70%;
   display: grid;
   grid-template-columns: 0.9fr 0.7fr 0.4fr;
-  margin: 0 8em 0 8em;
+}
+
+.about-width {
+  width: 70%;
 }
 
 @media (max-width: 800px) {
@@ -16,5 +18,8 @@
     width: 95%;
     display: grid;
     grid-template-columns: 1fr;
+  }
+  .about-width {
+    width: 95%;
   }
 }

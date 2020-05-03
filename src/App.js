@@ -8,7 +8,7 @@ import Skills from './components/SectionCards/Skills/Skills';
 import Awards from './components/SectionCards/Awards/Awards';
 import { Element } from 'react-scroll';
 
-class App extends Component { // need class to handle state if needs be
+class App extends Component { 
 
   render(){
     return (

@@ -1,46 +1,8 @@
 .about-bg {
   background: url(az-subtle.png);
-  /* background-color: #FFDFD3; */
   background-color: #fdfd96;
   margin: 20px;
 }
-
-/*
-.awards-bg {
-  background: url(Awards/awards.jpeg);
-  background-attachment: fixed;
-  background-size: cover;
-  position: relative;
-  overflow: hidden;
-  margin: 20px;
-}
-
-.educ-bg {
-  background: url(Education/education.jpg);
-  background-attachment: fixed;
-  background-size: cover;
-  position: relative;
-  overflow: hidden;
-  margin: 20px;
-}
-
-.skills-bg {
-  background: url(Skills/skills.jpeg);
-  
-  background-attachment: fixed;
-  background-size: cover;
-  position: relative;
-  overflow: hidden;
-  margin: 20px;
-}
- .experience-bg {
-  background: url(Experience/work.jpeg);
-  background-attachment: fixed;
-  background-size: cover;
-  position: relative;
-  overflow: hidden;
-  margin: 20px;
-} */
 
 .awards-bg {
   background: url(az-subtle.png);
@@ -66,8 +28,6 @@
   margin: 20px;
 }
 
-
-
 .organization-name {
   font-size: 120%;
 }
@@ -78,4 +38,41 @@
 
 .blur-coffee {
   backdrop-filter: blur(150px);
+}
+
+@media (max-width: 500px) {
+  .about-bg {
+    background: url(az-subtle.png);
+    background-color: #fdfd96;
+    margin: 0px;
+    overflow-x: scroll;
+  }
+  
+  .awards-bg {
+    background: url(az-subtle.png);
+    background-color: #F1C5C2;
+    overflow-x: scroll;
+    margin: 0px;
+  }
+  
+  .educ-bg {
+    background: url(az-subtle.png);
+    background-color: #C5EAFA;
+    overflow-x: scroll;
+    margin: 0px;
+  }
+  
+  .skills-bg {
+    background: url(az-subtle.png);
+    background-color: #C5EAFA;  
+    overflow-x: scroll;
+    margin: 0px;
+  }
+  
+  .experience-bg {
+    background: url(az-subtle.png);
+    background-color: #fdfd96;
+    overflow-x: scroll;
+    margin: 0px;
+  }
 }

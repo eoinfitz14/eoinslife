@@ -1,12 +1,12 @@
 import React from 'react';
 import '../SectionCards.css';
 import './Experience.css';
-// simple component with no state so we don't need to make it a class
+
 const Experience = () => {
   return (
     <div className='experience-bg pv5 avenir'>
       <h1 className='f4 br3 br--top black mv0 pt2 pb4 ph3 baskerville'>
-        WORK EXPERIENCE
+        WHAT I'VE DONE SO FAR
       </h1>
       <div id='job' className='center br3 pt1 job-container'>
         <div>
@@ -115,8 +115,8 @@ const Experience = () => {
             </p>
           </div>
           <p className='tl lh-copy'>
-            Having trained with Leinster tennis from 12 to 18 years old, I was asked to join in with their under 18's squad to set
-            the bar for how you should train. This was while I was doing a the Tennis Ireland Level 1 Coach course on weekends and so,
+            Having trained with Leinster tennis from 12 to 18 years old, I was invited to work with their under 18's squad to set
+            the bar for how you should train. This was while I was completing the Tennis Ireland Level 1 Coach course on weekends and so,
             allowed me to gain more experience as a coach.
           </p>
         </div>
@@ -132,7 +132,7 @@ const Experience = () => {
             Customer Service Sales Assistant
             </p>
             <p className='mv1'>
-            September 2015 - July 2019
+            September 2015 - February 2017
             </p>
           </div>
           <p className='tl lh-copy'>

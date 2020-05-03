@@ -2,7 +2,6 @@ import React from 'react';
 import './Education.css';
 import '../SectionCards.css';
 
-// simple component with no state so we don't need to make it a class
 const College = () => {
   return (
     <div>

@@ -2,7 +2,6 @@ import React from 'react';
 import '../SectionCards.css';
 import './Awards.css';
 
-// simple component with no state so we don't need to make it a class
 const Awards = () => {
   return (
     <div className='awards-bg pv5 avenir'>
@@ -14,7 +13,8 @@ const Awards = () => {
           <ul id='starList' className='fw6'>
             <li className='star'>LexisNexis Recognise Our People Award</li>
             <li className='star'>First Class Honours degree in Computer Engineering</li>
-            <li className='star'>Book token awarded for First Class Honours in 3rd year exams</li>
+            <li className='star'>Captained Leopardstown TC to win two league finals in 2018</li>
+            <li className='star'>Trinity Book Award for First Class Honours in 3rd year exams</li>
             <li className='star'>Outstanding Contribution to Tennis (secondary school graduation)</li>
             <li className='star'>School Prefect</li>
             <li className='star'>Ronnie Delany Sports Scholarship</li>
