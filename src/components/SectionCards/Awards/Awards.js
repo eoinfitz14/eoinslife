@@ -5,7 +5,7 @@ import './Awards.css';
 const Awards = () => {
   return (
     <div className='awards-bg pv5 avenir'>
-      <article className='center blur awards-width pa5 hidden br3 mv4 shadow-3'>
+      <div className='center blur awards-width pa5 hidden br3 mv4 shadow-3'>
         <h1 className='f4 br3 br--top black mv0 pv2 ph3 baskerville'>
         AWARDS & ACHIEVEMENTS
         </h1>
@@ -35,7 +35,7 @@ const Awards = () => {
             </ul>
           </ul>
         </div>
-      </article>
+      </div>
     </div>
   );
 }

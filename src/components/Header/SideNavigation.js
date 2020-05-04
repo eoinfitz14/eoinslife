@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 import Scroll from 'react-scroll';
 import { Motion, spring, presets } from 'react-motion';
 import './Header.css';
-import Hamburger from './Hamburger';
 
 const Link = Scroll.Link;
 

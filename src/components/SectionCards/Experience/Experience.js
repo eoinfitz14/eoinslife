@@ -10,9 +10,9 @@ const Experience = () => {
       </h1>
       <div id='job' className='center br3 pt1 job-container'>
         <div>
-          <img className='shadow-3' src={require('./lexisnexis.jpg')} alt="Garden House Plants" />
+          <img className='shadow-3' src={require('./lexisnexis.jpg')} alt="LexisNexis Logo" />
         </div>
-        <div className='tl blur-coffee pa3 br3 shadow-3'>
+        <div className='tl blur pa3 br3 shadow-3'>
           <div className='fw5'>
             <p className='organization-name company-colour mv1'>
               LexisNexis Risk Solutions
@@ -40,9 +40,9 @@ const Experience = () => {
           </p>
         </div>
         <div>
-          <img className='shadow-3' src={require('./rs.jpeg')} alt="Garden House Plants" />
+          <img className='shadow-3' src={require('./rs.jpeg')} alt="RS Logo" />
         </div>
-        <div className='tl blur-coffee pa3 br3 shadow-3'>
+        <div className='tl blur pa3 br3 shadow-3'>
           <div className='fw5'>
             <p className='organization-name company-colour mv1'>
               RS Academy, Leopardstown Tennis Club
@@ -61,9 +61,9 @@ const Experience = () => {
           </p>
         </div>
         <div>
-          <img className='shadow-3' src={require('./stanleypark.jpg')} alt="Garden House Plants" />
+          <img className='shadow-3' src={require('./stanleypark.jpg')} alt="Stanley Park" />
         </div>
-        <div className='tl blur-coffee pa3 br3 shadow-3'>
+        <div className='tl blur pa3 br3 shadow-3'>
           <div className='fw5'>
             <p className='organization-name company-colour mv1'>
               Stanley Park Tennis, Vancouver
@@ -81,9 +81,9 @@ const Experience = () => {
           </p>
         </div>
         <div>
-          <img className='shadow-3' src={require('./jericho.jpeg')} alt="Garden House Plants" />
+          <img className='shadow-3' src={require('./jericho.jpeg')} alt="Jericho Tennis Club" />
         </div>
-        <div className='tl blur-coffee pa3 br3 shadow-3'>
+        <div className='tl blur pa3 br3 shadow-3'>
           <div className='fw5'>
             <p className='organization-name company-colour mv1'>
               Jericho Tennis Club, Vancouver
@@ -100,9 +100,9 @@ const Experience = () => {
           </p>
         </div>
         <div >
-          <img className='shadow-3' src={require('./leinstertennis.jpg')} alt="Garden House Plants" />
+          <img className='shadow-3' src={require('./leinstertennis.jpg')} alt="Leinster Tennis Logo" />
         </div>
-        <div className='tl blur-coffee pa3 br3 shadow-3'>
+        <div className='tl blur pa3 br3 shadow-3'>
           <div className='fw5'>
             <p className='organization-name company-colour mv1'>
               Leinster Tennis
@@ -123,7 +123,7 @@ const Experience = () => {
         <div>
           <img className='shadow-3' src={require('./gardenhouse1.jpg')} alt="Garden House Plants" />
         </div>
-        <div className='tl blur-coffee pa3 br3 shadow-3'>
+        <div className='tl blur pa3 br3 shadow-3'>
           <div className='fw5'>
             <p className='organization-name company-colour mv1'>
               The Garden House, Malahide
