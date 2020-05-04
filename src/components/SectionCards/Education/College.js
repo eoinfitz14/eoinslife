@@ -25,8 +25,8 @@ const College = () => {
             I began studying Engineering at TCD with the intention of specializing in Biomedical Engineering. I have always loved
             learning about the human body having completed work experience in Dublin Dental University Hospital as well as 
             the Mini Med programme hosted by the Rotunda Hospital. However, modules involving introduction to Object-Oriented
-            Programming, programming buggies to perform operations around a track and data-visualisation in matlab helped develop
-            my passion for writing code.
+            Programming, programming "racing" buggies to perform operations around a track and data-visualisation in matlab helped
+            develop my passion for writing code.
           </p>
         </div>
       </div>

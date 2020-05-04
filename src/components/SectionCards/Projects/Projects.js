@@ -22,7 +22,7 @@ const Projects = () => {
             Robofriends is a simple Front-End-Only React App that I completed as part of a Udemy course in full-stack development. 
             Front-End development is something I had not been exposed to before doing this course. I found this exercise really
             useful as I am keen to learn about the whole stack. This app displays searchable images from Robohash.org that 
-            are created based on a hash-value of an avatar name.
+            are created based on the hash-value of an avatar name.
           </p>
           <div>
              <a href='https://github.com/eoinfitz14/robofriends' className="f6 grow no-underline br-pill ph3 pv2 mb2 dib white bg-blue mr2">Source Code</a>
@@ -44,7 +44,7 @@ const Projects = () => {
             before adding them to a database. This was the code-along final project of the Udemy course mentioned previously. 
           </p>
           <ul>
-            <li>Developed using React, Node, Express and PostgreSQL</li>
+            <li>Developed using ReactJS, NodeJS, ExpressJS and PostgreSQL</li>
             <li>Handled API calls with Ajax</li>
             <li>Database for logins using PostgreSQL</li>
             <li>Deployed on Heroku</li>
@@ -71,7 +71,7 @@ const Projects = () => {
           </div>
           <p className='tl lh-copy'>
             While this site is used as a portfolio for my projects, I also created it to experience the challenges of designing
-            and building a website from scratch. A few obstacles that I met along the way were making the website responsive and
+            and building a website from scratch. I met a few obstacles along the way, including making the website responsive and
             compatible with any device from mobile to monitor. I also took this opportunity to learn how to deploy to AWS S3 buckets.
           </p>
           <div>

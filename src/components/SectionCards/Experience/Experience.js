@@ -36,7 +36,7 @@ const Experience = () => {
             </p>
           </div>
           <p className='tl lh-copy'>
-            Starting as an intern, I had never written code in Java, learned about any software testing methodologies or even interned before. My initial role as an intern was to assist with the revival of a suite of automated tests that had not been touched for a year that is now the epicentre of our release testing. After impressing in the first half of my internship I got the opportunity to replace senior test engineer (3 levels above my current role) who was leaving on an integration between two major products with one based in Dublin and the other in the UK. Being thrown in the deep end was an invaluable experience and an opportunity that I will always be grateful for.
+            Starting as an intern, I had never written code in Java, learned about any software testing methodologies or even interned before. My initial role as an intern was to assist with the revival of a suite of automated tests that had not been touched for a year which is now the epicentre of our release testing. After impressing in the first half of my internship I got the opportunity to replace a senior test engineer (3 levels above my current role) that was leaving the company on an integration between two major products with one based in Dublin and the other in the UK. Being thrown in the deep end was an invaluable experience and an opportunity that I will always be grateful for.
           </p>
         </div>
         <div>
@@ -76,8 +76,11 @@ const Experience = () => {
             </p>
           </div>
           <p className='tl lh-copy'>
-            Stanley Park Tennis was a microcosm of Vancouver - diverse, picturesque, fun and friendly. Coaching here was all about giving people an opportunity to improve or learn something new in the most enjoyable, inclusive way possible.
-            Here, I coached groups from the Vancouver Tennis Association (VTA), a non-profit organization that fosters and promotes goodwill, fellowship, and healthy competition among tennis players in the gay, lesbian, bisexual, transgender, queer (LGBTQ+) community. I coached anyone from 10 years old to over-70s and loved it so much that I came back to work here two Summers in a row.
+            Stanley Park Tennis was a microcosm of Vancouver - diverse, picturesque, fun and friendly. Coaching here was all
+            about giving people an opportunity to improve or learn something new in the most enjoyable, inclusive way possible.
+            Here, I coached groups from the Vancouver Tennis Association (VTA), a non-profit organization started by tennis players
+            in the LGBTQ+ community that fosters and promotes goodwill, fellowship, and healthy competition. I coached anyone
+            from 10 years old to over-70s and loved it so much that I came back to work here two Summers in a row.
           </p>
         </div>
         <div>
