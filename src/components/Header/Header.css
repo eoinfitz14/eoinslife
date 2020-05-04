@@ -1,3 +1,7 @@
+ul {
+  padding-inline-start: 20px;
+}
+
 .header-bg {
   /* background: linear-gradient(180deg, #FDFDFD 0%, #FFDFD3 100%); w3c */
   /*background-color: #CFFFE5;;*/
@@ -5,7 +9,7 @@
 }
 
 .main-nav{
-  margin: auto;
+  margin: 0px;
   padding-top: 10px;
   padding-bottom: 10px;
   display: flex;

@@ -18,13 +18,19 @@
 
 .skills-bg {
   background: url(az-subtle.png);
-  background-color: #C5EAFA;  
+  background-color: #fdfd96;  
+  margin: 20px;
+}
+
+.projects-bg {
+  background: url(az-subtle.png);
+  background-color: #fdfd96;
   margin: 20px;
 }
 
 .experience-bg {
   background: url(az-subtle.png);
-  background-color: #fdfd96;
+  background-color: #C5EAFA;
   margin: 20px;
 }
 
@@ -34,10 +40,6 @@
 
  .blur {
    backdrop-filter: blur(50px);
-}
-
-.blur-coffee {
-  backdrop-filter: blur(150px);
 }
 
 @media (max-width: 500px) {
@@ -64,14 +66,21 @@
   
   .skills-bg {
     background: url(az-subtle.png);
-    background-color: #C5EAFA;  
+    background-color: #fdfd96;  
+    overflow-x: scroll;
+    margin: 0px;
+  }
+
+  .projects-bg {
+    background: url(az-subtle.png);
+    background-color: #fdfd96;
     overflow-x: scroll;
     margin: 0px;
   }
   
   .experience-bg {
     background: url(az-subtle.png);
-    background-color: #fdfd96;
+    background-color: #C5EAFA;
     overflow-x: scroll;
     margin: 0px;
   }

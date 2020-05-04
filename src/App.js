@@ -6,6 +6,8 @@ import Education from './components/SectionCards/Education/Education';
 import Experience from './components/SectionCards/Experience/Experience';
 import Skills from './components/SectionCards/Skills/Skills';
 import Awards from './components/SectionCards/Awards/Awards';
+import Projects from './components/SectionCards/Projects/Projects';
+
 import { Element } from 'react-scroll';
 
 class App extends Component { 
@@ -17,13 +19,14 @@ class App extends Component {
         <Element id='about' >
           <About />
         </Element>
-        <section>
-        <Element id='education' >
-          <Education />
-        </Element>
-        </section>
         <Element id='experience' >
           <Experience />
+        </Element>
+        <Element id='projects' >
+          <Projects />
+        </Element>
+        <Element id='education' >
+          <Education />
         </Element>
         <Element id='skills' >
           <Skills />

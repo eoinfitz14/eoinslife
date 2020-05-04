@@ -13,7 +13,7 @@ const About = () => {
             <div className='tl pa1 lh-copy measure avenir'>
               <p> 
                 I'm a recent graduate from Trinity College Dublin and have since been working at LexisNexis Risk Solutions. I always 
-                have goals that I'm working towards in work and in personal life and I always strive for quality.
+                have goals that I'm working towards in work and in personal life and I strive for quality.
                 Working as a Software Engineer in Test allows me to help my team deliver a top quality product in an automated fashion.
               </p>
               <p>
