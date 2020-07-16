@@ -53,12 +53,6 @@ const Projects = () => {
              <a href='https://github.com/eoinfitz14/' className="f6 grow no-underline br-pill ph3 pv2 mb2 dib white bg-blue mr2">Source Code</a>
              <a href='https://facerecogniser.herokuapp.com/' className="f6 grow no-underline br-pill ph3 pv2 mb2 dib white bg-blue ml2">See Live</a>
           </div>
-          <div>Register or use:
-            <br/>
-            email - test@eoinfitzsimons.com
-            <br/>
-            password - test
-          </div>
         </div>
         <div>
           <img className='shadow-3' src={require('./youarehere.jpg')} alt="You Are Here!" />
