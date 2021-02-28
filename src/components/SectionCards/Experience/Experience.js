@@ -10,6 +10,25 @@ const Experience = () => {
       </h1>
       <div id='job' className='center br3 pt1 job-container'>
         <div>
+          <img className='shadow-3' src={require('./sig.jpg')} alt="SIG Logo" />
+        </div>
+        <div className='tl blur pa3 br3 shadow-3'>
+          <div className='fw5'>
+            <p className='organization-name company-colour mv1'>
+              Susquehanna International Group (SIG)
+            </p>
+            <p className='mv1 role-colour'>
+              Software Engineer - Test Automation
+            </p>
+            <p className='mv1'>
+              October 2020 - Present
+            </p>
+          </div>
+          <p className='tl lh-copy'>
+            SIG is a proprietary trading company that was founded with an entrpeneurial mindset and takes a rigorous approach to decision making. My role is to build and maintain automated testing suites to be used for trading apps. Every day I am faced with complex technical challenges in order to reproduce bugs found in the apps or think of innovative ways to increase test coverage.
+          </p>
+        </div>
+        <div>
           <img className='shadow-3' src={require('./lexisnexis.jpg')} alt="LexisNexis Logo" />
         </div>
         <div className='tl blur pa3 br3 shadow-3'>
@@ -18,10 +37,10 @@ const Experience = () => {
               LexisNexis Risk Solutions
             </p>
             <p className='mv1 role-colour'>
-              Quality Test Engineer
+              Software Engineer in Test
             </p>
             <p className='mv1'>
-              September 2019 - present
+              September 2019 - October 2020
             </p>
           </div>
           <p className='tl lh-copy'>
