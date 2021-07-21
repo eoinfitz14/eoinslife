@@ -1,6 +1,17 @@
 import React from 'react';
 import './About.css';
 
+const GetAge = (dateString) => {
+  var today = new Date();
+    var birthDate = new Date(dateString);
+    var age = today.getFullYear() - birthDate.getFullYear();
+    var m = today.getMonth() - birthDate.getMonth();
+    if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+        age--;
+    }
+    return age;
+}
+
 const About = () => {
   return (
     <div className='about-bg pv5 avenir'>
@@ -37,7 +48,7 @@ const About = () => {
                 <br></br>
                 <strong>Age:</strong>
                 <br></br>
-                24
+                <a>{GetAge('1996/05/07')}</a>
                 <br></br>
                 <strong>Graduated:</strong>
                 <br></br>

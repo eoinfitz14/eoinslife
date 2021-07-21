@@ -44,7 +44,7 @@ const Experience = () => {
             </p>
           </div>
           <p className='tl lh-copy'>
-            LexisNexis Risk Solutions (LNRS) utilises Big Data to provide bespoke risk analysis tools for a broad range of sectors including Healthcare, Insurance and Governments. My day-to-day involves writing and reviewing automated tests using Java and Cucumber as well as ensuring that anything to do with the product is of the best quality. This ranges from Jira tickets to product features and performance. Our goal is to "blur the lines" between Developers and QAs so that eventually everyone will write feature code and automated tests.
+            LexisNexis Risk Solutions (LNRS) utilises Big Data to provide bespoke risk analysis tools for a broad range of sectors including Healthcare, Insurance and Governments. My day-to-day involved writing and reviewing automated tests using Java and Cucumber as well as ensuring that anything to do with the product was of the best quality. This ranged from Jira tickets to product features and performance. Our goal was to "blur the lines" between Developers and QAs so that eventually everyone would write feature code and automated tests.
           </p>
           <div className='fw5'>
             <p className='mv1 role-colour'>
@@ -55,7 +55,7 @@ const Experience = () => {
             </p>
           </div>
           <p className='tl lh-copy'>
-            Starting as an intern, I had never written code in Java, learned about any software testing methodologies or even interned before. My initial role as an intern was to assist with the revival of a suite of automated tests that had not been touched for a year which is now the epicentre of our release testing. After impressing in the first half of my internship I got the opportunity to replace a senior test engineer (3 levels above my current role) that was leaving the company on an integration between two major products with one based in Dublin and the other in the UK. Being thrown in the deep end was an invaluable experience and an opportunity that I will always be grateful for.
+            Starting as an intern, I had never written code in Java, learned about any software testing methodologies or even interned before. My initial role as an intern was to assist with the revival of a suite of automated tests that had not been touched for a whole year but by the time that I left it was the epicentre of our release testing. After impressing in the first half of my internship I got the opportunity to replace a senior test engineer (3 levels above entry level) that was leaving the company on an integration between two major products with one based in Dublin and the other in the UK. Being thrown in the deep end was an invaluable experience and an opportunity that I will always be grateful for.
           </p>
         </div>
         <div>
